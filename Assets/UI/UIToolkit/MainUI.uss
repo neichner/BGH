@@ -1,0 +1,3 @@
+.unity-slider-int #unity-dragger {
+    background-color: rgba(204, 5, 5, 255);
+}

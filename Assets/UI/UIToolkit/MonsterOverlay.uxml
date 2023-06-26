@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UIToolkit/MainUI.uss?fileID=7433441132597879392&amp;guid=6fee44ddcf67cbe4e97db4cd3b503656&amp;type=3#MainUI" />
+    <ui:VisualElement />
+    <ui:VisualElement style="align-items: auto; justify-content: flex-start; flex-direction: row;">
+        <ui:Label display-tooltip-when-elided="true" style="flex-shrink: 0; max-width: none; min-width: 150px; margin-right: 2px; padding-top: 2px; margin-left: 3px;" />
+        <ui:Label text="0" display-tooltip-when-elided="true" name="HeathBarLines" style="flex-shrink: 0;" />
+    </ui:VisualElement>
+    <ui:SliderInt picking-mode="Ignore" label="Health" value="42" high-value="19" />
+    <ui:VisualElement />
+</ui:UXML>

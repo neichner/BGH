@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f76328da741cb4428102a21fd8c4a48, type: 3}
+  m_Name: ConditionPrefabs
+  m_EditorClassIdentifier: 
+  ConditionPrefabs:
+  - condition: Disarm
+    prefab: {fileID: 654715180870373366, guid: 0ed176b4ae688cd4e856cd87a235807b, type: 3}
+  - condition: Immobalize
+    prefab: {fileID: 5002072148114940488, guid: 8ef2d344fb675cd41adc0cf9132f276e, type: 3}
+  - condition: Muddle
+    prefab: {fileID: 7874858228314306359, guid: 67ce424b4ab397849a783e01d01a2172, type: 3}
+  - condition: Poison
+    prefab: {fileID: 7801407364993380573, guid: 16607cc265eaf934ca0150d46e6eb8e0, type: 3}
+  - condition: Strenghten
+    prefab: {fileID: 3167697273239234532, guid: 721081594cdfee94c868312d04738b15, type: 3}
+  - condition: Stun
+    prefab: {fileID: 6252784360512585093, guid: 2a5eb2f97b5ea0a4d88f664a83e0ab21, type: 3}
+  - condition: Wound
+    prefab: {fileID: 626151421047382421, guid: ea7c219415aafaf4ba8c41532a6dcc58, type: 3}

@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7549f147b9cc03b47abccee24218e274, type: 3}
+  m_Name: JOTLData
+  m_EditorClassIdentifier: 
+  cardData:
+  - Name: Black Imp
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-black-imp-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-black-imp-4
+    Id: blackimp
+    EliteHealthLevels: 040000000600000008000000080000000b0000000e0000000f00000013000000
+    Normal: 0300000004000000050000000500000007000000090000000a0000000d000000
+    LowLevelImage: {fileID: 2707314868530131482, guid: 8a789c38d23f1e644a292bea4e5b64ef, type: 3}
+    HighLevelImage: {fileID: 1577524189846521804, guid: ff4a044d6b225544880c6d2458b792f2, type: 3}
+  - Name: Black Sludge
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-black-sludge-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-black-sludge-4
+    Id: blacksludge
+    EliteHealthLevels: 08000000090000000b0000000b0000000d0000000f0000001000000012000000
+    Normal: 04000000050000000700000008000000090000000a0000000c00000010000000
+    LowLevelImage: {fileID: 2767125609398139743, guid: 38a464a2c0075234ab59eaa9aaa2c1c2, type: 3}
+    HighLevelImage: {fileID: 537695868290090243, guid: d2d6ca82b56418e4da0f7c8e1d7122fa, type: 3}
+  - Name: Blood Imp
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-blood-imp-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-blood-imp-4
+    Id: bloodimp
+    EliteHealthLevels: 0400000006000000070000000a0000000b0000000d0000001100000015000000
+    Normal: 030000000400000005000000050000000700000008000000090000000c000000
+    LowLevelImage: {fileID: 7504597113611531520, guid: 6e81957e0f62977488375acc90f4c29e, type: 3}
+    HighLevelImage: {fileID: 864967625690145980, guid: fe9351697540ed8449c0906e8fdcbc1d, type: 3}
+  - Name: Blood Monstrosity
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-blood-monstrosity-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-blood-monstrosity-4
+    Id: bloodmonstrosity
+    EliteHealthLevels: 0c0000000c0000000f0000001200000012000000140000001700000017000000
+    Normal: 07000000090000000a0000000c0000000c0000000d0000001100000014000000
+    LowLevelImage: {fileID: 3479178253715019484, guid: 5c031cbd183b63a4f8db08704696b895, type: 3}
+    HighLevelImage: {fileID: 6814219768377029750, guid: ab1bd15e21abc7a47aa5e030e6f46eb1, type: 3}
+  - Name: Chaos Demon
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-chaos-demon-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-chaos-demon-4
+    Id: chaosdemon
+    EliteHealthLevels: 0a0000000c0000000e00000012000000150000001a0000001e00000023000000
+    Normal: 07000000080000000b0000000c0000000f000000100000001400000016000000
+    LowLevelImage: {fileID: 5294470995876917025, guid: 1d277fdb5b68bdf4db158b8494505dd1, type: 3}
+    HighLevelImage: {fileID: 3543804059194618663, guid: 2af25ec29b6381248aebd96ea595ed65, type: 3}
+  - Name: Giant Viper
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-giant-viper-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-giant-viper-4
+    Id: giantviper
+    EliteHealthLevels: 030000000500000007000000080000000b0000000d0000000e00000012000000
+    Normal: 020000000300000004000000040000000600000007000000080000000a000000
+    LowLevelImage: {fileID: 2354690228814657791, guid: 0b74837c879177f4ca36379ef98c6876, type: 3}
+    HighLevelImage: {fileID: 6217487010642830985, guid: e364f5e4a05ae444591c7b844a9e6947, type: 3}
+  - Name: Living Corpse
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-living-corpse-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-living-corpse-4
+    Id: livingcorpse
+    EliteHealthLevels: 0a0000000b0000000e0000000e0000001000000012000000170000001d000000
+    Normal: 0500000007000000090000000a0000000b0000000d0000000e00000010000000
+    LowLevelImage: {fileID: 5783035803437444369, guid: e8a712d4eb4fbeb4fbf3507993d20102, type: 3}
+    HighLevelImage: {fileID: 6766744647634117168, guid: c7ad55ad8477f7f439641a675e1a0216, type: 3}
+  - Name: Living Spirit
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-living-spirit-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-living-spirit-4
+    Id: livingspirit
+    EliteHealthLevels: 05000000050000000700000008000000080000000b0000000d00000011000000
+    Normal: 030000000400000005000000060000000600000008000000090000000c000000
+    LowLevelImage: {fileID: 7024984275006971024, guid: 0c0addcde208d34429f37f845c2a3102, type: 3}
+    HighLevelImage: {fileID: 8878115951494507669, guid: 8af1d99f8bdf2a24b85bf19bb516fde0, type: 3}
+  - Name: Rat Monstrosity
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-rat-monstrosity-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-rat-monstrosity-4
+    Id: ratmonstrosity
+    EliteHealthLevels: 0600000007000000080000000a0000000c0000000d0000000e00000010000000
+    Normal: 04000000040000000500000006000000080000000a0000000c0000000c000000
+    LowLevelImage: {fileID: 2208668367071868851, guid: 7998f86c3d916bd45a69c12d93b6eb9c, type: 3}
+    HighLevelImage: {fileID: 4625186343077102337, guid: 0375d4418035fe64cb52ad5055a38d65, type: 3}
+  - Name: Stone Golem
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-stone-golem-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-stone-golem-4
+    Id: stonegolem
+    EliteHealthLevels: 0a0000000b0000000d0000000e00000010000000120000001400000015000000
+    Normal: 0a0000000a0000000b0000000b0000000c0000000d0000001000000010000000
+    LowLevelImage: {fileID: 6241891798861927439, guid: ca7b648d9578077418303c4e62687a66, type: 3}
+    HighLevelImage: {fileID: 3983761179653648947, guid: bb3202f2f9241c941af1232d0f510f71, type: 3}
+  - Name: Vermling Raider
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-vermling-raider-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-vermling-raider-4
+    Id: vermlingraider
+    EliteHealthLevels: 080000000a0000000e0000001000000013000000170000001b0000001f000000
+    Normal: 0400000005000000090000000b0000000c0000000f0000001100000013000000
+    LowLevelImage: {fileID: 6546939998466293084, guid: cb7ca97ebdf01114993c7d39adeb8189, type: 3}
+    HighLevelImage: {fileID: 5811716564933695271, guid: 09ee4257afd86bc438770c8acafd7364, type: 3}
+  - Name: Vermling Scout
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-vermling-scout-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-vermling-scout-4
+    Id: vermlingscout
+    EliteHealthLevels: 04000000050000000500000007000000080000000b0000000d00000011000000
+    Normal: 0200000003000000030000000500000006000000080000000a0000000d000000
+    LowLevelImage: {fileID: 8928063618162209566, guid: fdb25eca4c0ba57408c4b8e70ef74dc5, type: 3}
+    HighLevelImage: {fileID: 8660252573219301610, guid: 480abfede0a50904d9ea423f21c0264b, type: 3}
+  - Name: Zealot
+    ImageCardLowLevel: monster-stat-cards/jaws-of-the-lion/jl-zealot-0
+    ImageCardHighLevel: monster-stat-cards/jaws-of-the-lion/jl-zealot-4
+    Id: zealot
+    EliteHealthLevels: 07000000080000000b0000000d0000001100000012000000160000001a000000
+    Normal: 040000000600000007000000080000000a0000000c0000000e00000010000000
+    LowLevelImage: {fileID: 7542751544151816, guid: aeb360f590c1fe743836a15dcc64db6e, type: 3}
+    HighLevelImage: {fileID: 8784874926838255589, guid: 85b81209e300d96408f2821de1df976c, type: 3}
